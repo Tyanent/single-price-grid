@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+font-family: Karla;
+margin: 0;
+padding: 0;
+font-size: 16px;
+}
+
+body{
+    background-color: #E6EFF5;
+}
+
+li{
+    list-style: none;
+    font-size: 14px;
+    padding-bottom: 3px;
+    color: hsl(204, 43%, 93%);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.bottom{
+    display: flex;
+}
+
+.description{
+    background-color: white;
+    padding: 25px 30px;
+    
+}
+
+.sub_details{
+    display: block;
+    background-color: #54B4B1;
+    color: white;
+    padding: 25px 30px;
+    min-width: 150px;
+    padding-right: 60px;
+}
+
+.why{
+    display: block;
+    background-color: #59BEBD;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    padding-right: 90px;
+    max-width: 300px;
+
+}
+
+.signup_btn{
+    border: 2px solid hsl(71, 73%, 54%);
+    font-size: 13px;
+    background-color: hsl(71, 73%, 54%);
+    padding: 10px 70px;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px 8px 6px 2px #4DA28F;
+}
+.signup_btn:hover{
+    background-color: white;
+    color: hsl(71, 73%, 54%);
+    border: 2px solid hsl(71, 73%, 54%) ;
+    cursor: pointer;
+}
+
+h1{
+    font-size: 28px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    padding-bottom: 16px;
+}
+
+h2{
+    font-size:18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    color: white;
+}
+
+p{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 36px;
+}
+
+.deal{
+    color:hsl(71, 73%, 54%) ;
+    padding-bottom: 15px;
+    font-weight: 700;
+}
+
+.benefits{
+    color: hsl(218, 22%, 67%);
+}
+
+.per_{
+    color: hsl(204, 43%, 93%);
+    padding-left: 15px;
+}
+   
+.payment{
+    display:flex;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    display: block;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.access{
+    padding-bottom: 22px;
+}
+
+
+@media only screen and (max-width: 460px){
+
+    
+    .container{
+        margin: 0;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        max-width: 300px;
+        overflow: hidden;
+        border-radius: 10px;
+        margin-top: 30px;
+
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
